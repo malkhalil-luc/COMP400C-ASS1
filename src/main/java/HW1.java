@@ -10,6 +10,10 @@
 
 import java.util.*;
 // see generic methods of ADT. SEE BINARY TREES
+/*
+* Mahran Alkhalil
+*
+ */
 public class HW1 {
 
 
@@ -202,7 +206,7 @@ public class HW1 {
                 Inner loop:  j grows exponentially to the power of 2,
                 number of iterations:  J starts J=2. ( as J*2 each time) T iterations => 2^(T+1)., +1 because we are not starting from 0 j=2.
                 the loop stops (max # iterations )when 2^(T+1) <= n; the loop condition j <= n;
-                so the number of times we do that is logarithmic =>> O(log n)
+                so the number of times we do that appears logarithmic (Doubling j > loop takes fewer steps ) =>> O(log n)
 
          time complexity = T outer loop * T inner loop = O(n) * O(log n)
 
