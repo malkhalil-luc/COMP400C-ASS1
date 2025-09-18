@@ -35,6 +35,14 @@ public class Main {
         list1.addLast(9);
         list1.addLast(100);
         list1.addLast(35);
+        //list1.removeDuplicates();
+        System.out.println(list1);
+//        list1.reverse();
+//        System.out.println(list1);
+//        System.out.println(list1.getNthFromEnd(0));
+
+
+
 
         // Check toString after insertions
         String expectedInit = "[1, 2, 3, 4, 1, 2, 3, 4, 9, 100, 35]";
@@ -97,6 +105,8 @@ public class Main {
             assignmentScore += 15;
         else
             errorFlag = false;
+
+//45
 
 
         /**************************************
