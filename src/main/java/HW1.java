@@ -1,6 +1,6 @@
 /*
  * COMP 272 — Programming Assignment 1 
- * Student: <Your Name>   Section: <Your Section>
+ * Student: Mahran Alkhalil   Section: COMP400C
  *
  * IMPORTANT:
  * - Implement the TODO methods. Keep the method signatures unchanged.
